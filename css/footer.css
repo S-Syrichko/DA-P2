@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  width: 100%;
+  transform: translateX(-5%);
+  padding: 40px 5%;
+  font-family: "Raleway", sans-serif;
+  background-color: var(--background-color);
+}
+.footer__header {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+footer li {
+  margin-bottom: 15px;
+}
+
+.footer__about,
+.footer__lodging,
+.footer__assist {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-right: 20px;
+  padding-bottom: 40px;
+}
+.footer__link {
+  font-size: 16px;
+  margin-bottom: 20px;
+}

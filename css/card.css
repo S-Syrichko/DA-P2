@@ -1,0 +1,104 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  margin: 0 5px 40px 5px;
+  width: 240px;
+  height: 200px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 5px 15px rgb(222, 220, 220);
+}
+.card img {
+  width: inherit;
+  height: 120px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 25px 25px 0 0;
+}
+.card__desc {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 1px;
+}
+.card__desc__header {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.card__desc__content {
+  font-size: 15px;
+  margin: 5px 0;
+}
+.card__desc__content em {
+  font-weight: bold;
+  font-style: normal;
+}
+/*Card aside*/
+.card--aside {
+  display: flex;
+  flex-direction: row;
+  height: 135px;
+  width: 320px;
+}
+.card--aside img {
+  width: 130px;
+  height: inherit;
+  border-radius: 25px 0 0 25px;
+}
+.card__desc--aside {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+}
+.rating--aside {
+  padding-top: 35px;
+}
+.fa-star {
+  font-size: 13px;
+  color: var(--primary-color);
+}
+.fa-star--duotone {
+  color: var(--secondary-color);
+}
+.fa-star--aside {
+  font-size: 12px;
+}
+/*Card activity*/
+.card--activity {
+  padding: 0;
+  width: 300px;
+}
+.card--activity img {
+  width: inherit;
+  height: inherit;
+  object-position: center 30%;
+  flex: 1 1 0%;
+}
+.card--activity figcaption {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 56px;
+  padding: 0 0 0 20px;
+}
+.card--vieux-port {
+  height: 445px;
+}
+.card--pomegues {
+  height: 235px;
+}
+.card--frioul {
+  height: 165px;
+}
+.card--calanques {
+  height: 445px;
+}
+.card--notre-dame {
+  height: 195px;
+}
+.card--longchamp {
+  height: 210px;
+}

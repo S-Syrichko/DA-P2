@@ -1,0 +1,19 @@
+.activities {
+  margin-bottom: 30px;
+}
+.activities__header {
+  font-size: 23px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+.activities__list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.activities__col2,
+.activities__col3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 25px;
+  font-family: "Raleway", sans-serif;
+}
+.logo {
+  height: 50px;
+  width: auto;
+  padding: 45px 0 0 20px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav__link {
+  width: 180px;
+  text-align: center;
+  color: black;
+  padding: 45px 0 0 0;
+  border-top: solid;
+  border-color: white;
+}
+.nav__link--active {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}

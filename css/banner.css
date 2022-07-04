@@ -1,0 +1,113 @@
+.banner__header {
+  font-size: 23px;
+  font-weight: bolder;
+}
+.banner__content {
+  padding: 10px 0;
+}
+/*Searchbar*/
+.banner__form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  width: fit-content;
+  background-color: var(--background-color);
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+.banner__form i {
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.banner__form__text-input {
+  font-size: 18px;
+  padding: 0.5px 15px;
+  color: black;
+  font-weight: bold;
+  height: 90%;
+  border: none;
+  background-color: white;
+}
+.banner__form__submit {
+  font-size: 18px;
+  padding: 14.5px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0 15px 15px 0;
+}
+.banner__form__submit i {
+  display: none;
+}
+.banner__form__submit span {
+  color: white;
+}
+/*Refine*/
+.banner__refine {
+  display: flex;
+  padding: 20px 5px;
+  align-items: center;
+}
+.banner__refine__header {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 20px 20px 0;
+}
+.banner__refine ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.banner__refine__filter {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+  margin: 5px 10px;
+  border-radius: 25px;
+  height: 43px;
+  border: 2px solid #d9d9d9;
+}
+.banner__refine__filter:hover {
+  transform: translate(3px, 3px);
+}
+.banner__refine__filter i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 15px;
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  transform: translateX(-5px);
+}
+.banner__refine__filter__content {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 4px 0 0;
+  padding: 0 20px 0 10px;
+  background-color: white;
+}
+/*Info*/
+.banner__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.banner__info i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+  width: 22px;
+  font-size: 25px;
+  border-radius: 50%;
+  color: white;
+  background-color: var(--primary-color);
+  border: 3px solid grey;
+  margin-right: 10px;
+}

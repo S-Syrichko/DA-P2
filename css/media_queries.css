@@ -1,0 +1,130 @@
+/*Tablet*/
+@media screen and (max-width: 992px) {
+  .lodging {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .lodging__view {
+    min-width: 100%;
+    margin: 20px 0;
+  }
+  .lodging__view__list {
+    justify-content: space-around;
+  }
+  .lodging__top-rated {
+    min-width: 100%;
+    margin: 20px 0;
+  }
+  .lodging__top-rated__list {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .activities__list {
+    justify-content: space-around;
+  }
+}
+/*Mobile*/
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  .banner,
+  .lodging__view__header,
+  .lodging__view__expand,
+  .activities__header,
+  .footer__about,
+  .footer__lodging,
+  .footer__assist {
+    margin: 0 5%;
+  }
+  /*Header*/
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    transform: translateX(10%);
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav__link {
+    width: 50%;
+    padding-bottom: 15px;
+    border-top: none;
+    border-bottom: solid;
+    border-color: var(--background-color);
+  }
+  .nav__link--active {
+    border-color: var(--primary-color);
+  }
+  /*Banner*/
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner__form {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .banner__form__submit {
+    border-radius: 15px;
+  }
+  .banner__form__submit i {
+    color: white;
+    display: contents;
+  }
+  .banner__form__submit span {
+    display: none;
+  }
+  .banner__refine {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+  /*Cards*/
+  .card {
+    width: 320px;
+  }
+  .card--vieux-port,
+  .card--pomegues,
+  .card--frioul,
+  .card--calanques,
+  .card--notre-dame,
+  .card--longchamp {
+    height: 190px;
+  }
+  /*Lodging*/
+  .lodging__view {
+    background-color: white;
+    padding: 30px 0;
+    border-radius: 0;
+  }
+  .lodging__view__list {
+    flex-direction: column;
+  }
+  .lodging__top-rated {
+    padding: 30px 0;
+    border-radius: 0;
+  }
+  .lodging__top-rated__list {
+    flex-direction: column;
+  }
+  /*Activities*/
+  .activities__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*Footer*/
+  footer {
+    flex-direction: column;
+    transform: none;
+    padding: 40px 0;
+  }
+  .footer__about,
+  .footer__lodging,
+  .footer__assist {
+    width: auto;
+  }
+}
