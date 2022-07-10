@@ -22,7 +22,7 @@ header {
   border-top: solid;
   border-color: white;
 }
-.nav__link--active {
+.nav__link:hover{
   color: var(--primary-color);
   border-color: var(--primary-color);
 }
